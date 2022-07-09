@@ -33,6 +33,7 @@
     width: 44px;
     height: 32px;
     background: url(../images/logo.png) no-repeat center;
+    /* background: url(../images/logo.png) no-repeat center; */
     background-size: contain;
   }
   
@@ -88,6 +89,7 @@
   #home{
     height: 100vh;
     min-height: 500px;
+    /* background: url(https://images.unsplash.com/photo-1614848788803-295f43145cfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80) no-repeat center; */
     background: url(../images/background-home.jpeg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -124,7 +126,7 @@
       content: "A Designer";
     }
     75%{
-      content: "A Web Scraper";
+      content: "A Freelancer";
     }
   }
   
@@ -305,6 +307,7 @@
   }
   
   .services{
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -337,7 +340,9 @@
   .service:hover{
     background-color: #48dbfb;
   }
-  
+#services{
+  border-bottom: 2px solid white;
+}
   .service:hover .icon{
     color: #fff;
   }
